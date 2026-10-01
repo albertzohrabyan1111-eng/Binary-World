@@ -1,0 +1,163 @@
+@media (max-width: 1100px) {
+    .right_box,
+    .left_box,
+    .right_box2,
+    .left_box2 {
+        padding: 25px !important;
+    }
+
+    .val,
+    .arj2 {
+        padding: 25px !important;
+    }
+
+    .right_box li,
+    .left_box2 li,
+    .con {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .big-Men {
+        background-attachment: scroll !important;
+    }
+
+    .title_box h1 {
+        font-size: 28px;
+    }
+
+    .box_inf {
+        flex-direction: column !important;
+        height: auto !important;
+        min-height: 0 !important;
+    }
+
+    .right_box,
+    .left_box,
+    .right_box2,
+    .left_box2 {
+        width: 100% !important;
+        min-height: 0 !important;
+        padding: 20px !important;
+    }
+
+    .imi_box img,
+    .img_box2 img {
+        height: auto !important;
+        max-width: 100%;
+    }
+
+    .Visualizer {
+        flex-direction: column !important;
+    }
+
+    .val,
+    .arj2 {
+        width: 100% !important;
+        min-height: 0 !important;
+        padding: 20px !important;
+    }
+
+    .patasxan {
+        max-width: 100% !important;
+    }
+
+    .Structures-box,
+    .Algoritm-box,
+    .infoS {
+        min-height: 0 !important;
+    }
+}
+
+@media (max-width: 520px) {
+    .nav {
+        padding: 8px 0;
+    }
+
+    .nav ul {
+        gap: 8px;
+    }
+
+    .knop,
+    .knop1 {
+        padding: 8px 12px !important;
+        border-radius: 15px !important;
+        font-size: 13px;
+    }
+
+    .title_box {
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 15px 10px;
+    }
+
+    .title_box h1,
+    .tit {
+        font-size: 22px;
+    }
+
+    .infoS {
+        padding: 10px !important;
+    }
+
+    .right_box,
+    .left_box,
+    .right_box2,
+    .left_box2,
+    .val,
+    .arj2 {
+        padding: 12px !important;
+    }
+
+    .right_box ul,
+    .left_box2 ul {
+        padding: 0 10px !important;
+    }
+
+    .right_box li,
+    .left_box2 li,
+    .con {
+        font-size: 16px !important;
+    }
+
+    .te {
+        height: 160px !important;
+        font-size: 18px !important;
+        padding: 15px !important;
+    }
+
+    .te::placeholder {
+        font-size: 18px !important;
+    }
+
+    .koj {
+        font-size: 18px !important;
+        padding: 8px 30px !important;
+    }
+
+    .patasxan {
+        height: 80px !important;
+        max-height: 80px !important;
+        border-radius: 30px !important;
+        padding: 10px 15px !important;
+        font-size: 16px;
+    }
+
+    .patasxan::-webkit-scrollbar {
+        height: 10px;
+    }
+
+    .patasxan::-webkit-scrollbar-track {
+        margin: 0 20px !important;
+    }
+
+    body::-webkit-scrollbar {
+        width: 8px;
+    }
+}

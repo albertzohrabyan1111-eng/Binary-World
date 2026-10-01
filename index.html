@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Բինար աշխարհ</title>
+    <link rel="icon" href="img/icon.jpg" style="width: 50px; height: 50px;">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav_pan">
+            <ul>
+                <li class="knop "><a href="">
+                        Գլխավոր էջ
+                    </a></li>
+                <li class="knop1"><a href="#Structure">
+                        Տվյալների կառուցվածքներ
+                    </a></li>
+                <li class="knop1"><a href="#Algorithms">
+                        Ալգորիթմ
+                    </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="big_men big-Men" onmousewheel="imgbg()">
+        <div class="mec"></div>
+    </div>
+
+
+    <div class="Structures-box" id="Structure">
+        <div class="infoS">
+            <div class="title_box">
+                <h1>Տվյալների կառուցվածքներ</h1>
+            </div>
+            <div class="box_inf">
+                <div class="right_box">
+                    <ul>
+                        <li>Զանգվածներ (Arrays)
+                            <ul>
+                                <li>Ինչ է: Տվյալների հաջորդականություն հիշողության անընդհատ բջիջներում։</li>
+                                <li>Առավելություն: Արագ մուտք դեպի ցանկացած տարր ըստ ինդեքսի։</li>
+                            </ul>
+                        </li>
+                        <li> Ցուցակներ (Linked Lists)
+                            <ul>
+                                <li>Ինչ է: Հանգույցների շղթա, որտեղ յուրաքանչյուր տարր հղում է դեպի հաջորդը։</li>
+                                <li>Առավելություն: Տվյալների դինամիկ ավելացում և հեռացում առանց սահմանափակումների։</li>
+                            </ul>
+                        </li>
+                        <li>Ծառեր (Trees)
+                            <ul>
+                                <li>Ինչ է: Հիերարխիկ կառուցվածքներ (օրինակ՝ երկнар ծառեր)։</li>
+                                <li>Կիրառություն: Արագ որոնում և տվյալների արդյունավետ դասակարգում։</li>
+                            </ul>
+                        </li>
+                        <li>Գրաֆներ (Graphs)
+                            <ul>
+                                <li>Ինչ է: Հանգույցների և կապերի ցանցային համակարգեր։</li>
+                                <li>Կիրառություն: Բարդ փոխհարաբերությունների և ուղիների որոնման համար։</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="left_box">
+                    <div class="imi_box">
+                        <img src="img/ascll.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Visualizer">
+            <div class="val">
+                <form action="" class="fr">
+                    <div class="te_box">
+                        <textarea class="te" type="text" placeholder="Text" name="" id="" onkeydown="f1()"></textarea>
+                    </div>
+                    <div class="knop_box">
+                        <button class="koj" type="button" onclick="f1(true)">Enter</button>
+                    </div>
+                </form>
+            </div>
+            <div class="arj2">
+                <div class="patasxan">
+                    <h1 class="sds">բինար երկուական համակարգ</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Algoritm-box" id="Algorithms">
+        <div class="title_box">
+            <h1>Ի՞նչ է ալգորիթմը</h1>
+        </div>
+        <div class="box_inf">
+            <div class="right_box2">
+                <div class="img_box2">
+                    <img src="img/algoritm.jpg" alt="">
+                </div>
+            </div>
+            <div class="left_box2">
+                <h1 class="tit">Ի՞նչ է ալգորիթմը (Հիմնական սահմանում)</h1>
+                <p class="con">Ալգորիթմը խնդրի լուծման կամ նպատակին հասնելու համար նախատեսված հստակ, միարժեք հրահանգների
+                    կամ քայլերի
+                    հաջորդականություն է: Համակարգչային գիտության մեջ սա ծրագրավորման «ուղեղն» է. առանց ալգորիթմի
+                    սարքավորումը պարզապես չգիտի, թե ինչպես մշակի մեր ուղարկած բայթերն ու տվյալները:</p>
+                <ul>
+                    <li>Ալգորիթմի 4 Անկյունաքարային Հատկանիշները
+                        <ul>
+                            <li>Մուտքային տվյալներ (Input): Ալգորիթմն ունի սկզբնական տեղեկատվություն, որի հետ պետք է
+                                աշխատի (օրինակ՝ թվերի անկանոն զանգված կամ տեքստ):</li>
+                            <li>Ելքային արդյունք (Output): Գործողությունների ավարտին այն տալիս է հստակ վերջնական
+                                արդյունք:</li>
+                            <li>Հստակություն (Definiteness): Յուրաքանչյուր քայլ պետք է լինի բացարձակ պարզ և միարժեք
+                                համակարգչի կամ մարդու համար:</li>
+                            <li>Վերջնավորություն (Finiteness): Ալգորիթմը պետք է ավարտվի որոշակի քայլերից հետո և չընկնի
+                                անվերջ պտույտի (infinite loop) մեջ:</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
