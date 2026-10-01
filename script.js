@@ -42,8 +42,6 @@ function f1(pay = false) {
         for (var b = 0; b < arr.length; b++) {
             elem2.innerHTML += arr[b] + ` `
         }
-        console.log(`duq grel eq ` ,arj, codAscll)
-        console.log(arr)
     }
 }
 
